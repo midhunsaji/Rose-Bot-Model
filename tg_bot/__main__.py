@@ -146,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🦋 Movie Play 🦋", url="https://t.me/MoviePlayr)],
                      [InlineKeyboardButton(text="📯 Owner📯", url="https://t.me/Curio_VolvEX"), InlineKeyboardButton(text="❌ Channel ❌", url="https://t.me/MoviePlayr"), InlineKeyboardButton(text="Source Code", url="https://t.me/ok_bie_1223/11")],
-                     [InlineKeyboardButton(text="🌸 JOIN GROUP 🌸", url="https://t.me/joinchat/RkEHxe5doSNM9B9N")]
+                     [InlineKeyboardButton(text="🌸 JOIN GROUP 🌸", url="https://t.me/joinchat/RkEHxe5doSNM9B9N")]]
     
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
